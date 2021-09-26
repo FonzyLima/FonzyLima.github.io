@@ -75,6 +75,7 @@
   }
 }
 
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -490,6 +491,7 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: left;
 }
 
 .display-1 {
@@ -602,7 +604,10 @@ progress {
   max-width: 100%;
   height: auto;
 }
-
+.modal-pics {
+  max-width: 100%;
+  height: 50%;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11493,4 +11498,11 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.app-names{
+  text-align: center;
+  color:  #1a252f;
+  font-size: 55px;
+  
 }
