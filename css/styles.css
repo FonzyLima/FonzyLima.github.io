@@ -601,7 +601,11 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
+  max-height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
 }
 
@@ -609,8 +613,8 @@ progress {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 50%;
+  max-height: 50%;
   height: auto;
   width: auto;
 }
