@@ -601,12 +601,13 @@ progress {
 }
 
 .img-fluid {
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: auto;
+  border-radius: 50%;
 
 }
 
@@ -11482,12 +11483,14 @@ html {
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
+
   position: absolute;
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(125, 140, 163, 0.9);
+  border-radius: 50%;
 
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -11521,7 +11524,7 @@ html {
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #202a41;
 }
 
 .app-names{
