@@ -19,7 +19,11 @@
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
+<<<<<<< Updated upstream
   --bs-teal: #1abc9c;
+=======
+  --bs-teal: #7D8CA3;
+>>>>>>> Stashed changes
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -33,16 +37,26 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
+<<<<<<< Updated upstream
   --bs-primary: #1abc9c;
   --bs-secondary: #2c3e50;
+=======
+  --bs-primary: #7D8CA3;
+  --bs-secondary: #202a41;
+>>>>>>> Stashed changes
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+<<<<<<< Updated upstream
   --bs-primary-rgb: 26, 188, 156;
   --bs-secondary-rgb: 44, 62, 80;
+=======
+  --bs-primary-rgb: 125, 140, 163;
+  --bs-secondary-rgb: 34,42,65;
+>>>>>>> Stashed changes
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -236,7 +250,11 @@ sup {
 }
 
 a {
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
   text-decoration: underline;
 }
 a:hover {
@@ -601,7 +619,25 @@ progress {
 }
 
 .img-fluid {
+<<<<<<< Updated upstream
   max-width: 100%;
+=======
+  max-width: 80%;
+  max-height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+
+}
+
+.img-orgs{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+>>>>>>> Stashed changes
   height: auto;
 }
 .modal-pics {
@@ -2505,8 +2541,13 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
 }
 .form-check-input:checked {
+<<<<<<< Updated upstream
   background-color: #1abc9c;
   border-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+  border-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -2515,8 +2556,13 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
 }
 .form-check-input[type=checkbox]:indeterminate {
+<<<<<<< Updated upstream
   background-color: #1abc9c;
   border-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+  border-color: #7D8CA3;
+>>>>>>> Stashed changes
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 .form-check-input:disabled {
@@ -2593,7 +2639,11 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+>>>>>>> Stashed changes
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2622,7 +2672,11 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+>>>>>>> Stashed changes
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3030,8 +3084,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
   border-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+  border-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .btn-primary:hover {
   color: #fff;
@@ -3054,8 +3113,13 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
   border-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+  border-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 
 .btn-secondary {
@@ -3269,6 +3333,7 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
+<<<<<<< Updated upstream
   color: #1abc9c;
   border-color: #1abc9c;
 }
@@ -3276,20 +3341,38 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #1abc9c;
   border-color: #1abc9c;
+=======
+  color: #7D8CA3;
+  border-color: #7D8CA3;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #7D8CA3;
+  border-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
   border-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+  border-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
   background-color: transparent;
 }
 
@@ -3470,7 +3553,11 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
   text-decoration: underline;
 }
 .btn-link:hover {
@@ -3779,7 +3866,11 @@ textarea.form-control-lg {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -3820,7 +3911,11 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
@@ -3942,7 +4037,11 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3999,7 +4098,11 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 
 .nav-fill > .nav-link,
@@ -4803,7 +4906,11 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
   text-decoration: none;
   background-color: #fff;
   border: 0.125rem solid #dee2e6;
@@ -4834,8 +4941,13 @@ textarea.form-control-lg {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
   border-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+  border-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -5031,7 +5143,11 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
   white-space: nowrap;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+>>>>>>> Stashed changes
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5114,8 +5230,13 @@ textarea.form-control-lg {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
+<<<<<<< Updated upstream
   background-color: #1abc9c;
   border-color: #1abc9c;
+=======
+  background-color: #7D8CA3;
+  border-color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6433,7 +6554,11 @@ textarea.form-control-lg {
 }
 
 .link-primary {
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 .link-primary:hover, .link-primary:focus {
   color: #15967d;
@@ -6879,7 +7004,11 @@ textarea.form-control-lg {
 }
 
 .border-primary {
+<<<<<<< Updated upstream
   border-color: #1abc9c !important;
+=======
+  border-color: #7D8CA3 !important;
+>>>>>>> Stashed changes
 }
 
 .border-secondary {
@@ -11361,13 +11490,21 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11389,11 +11526,19 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
+<<<<<<< Updated upstream
     background: #1abc9c;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
     background: #1abc9c;
+=======
+    background: #7D8CA3;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #7D8CA3;
+>>>>>>> Stashed changes
   }
 
   #mainNav.navbar-shrink {
@@ -11464,7 +11609,12 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
+<<<<<<< Updated upstream
   background-color: rgba(26, 188, 156, 0.9);
+=======
+  background-color: rgba(125, 140, 163, 0.9);
+
+>>>>>>> Stashed changes
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11474,7 +11624,11 @@ html {
 }
 
 .portfolio-modal .btn-close {
+<<<<<<< Updated upstream
   color: #1abc9c;
+=======
+  color: #7D8CA3;
+>>>>>>> Stashed changes
   font-size: 2rem;
   padding: 1rem;
 }
