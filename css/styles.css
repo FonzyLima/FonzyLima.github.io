@@ -11485,13 +11485,16 @@ html {
 .portfolio .portfolio-item .portfolio-item-caption {
 
   position: absolute;
-  top: 0;
-  left: 0;
+  display: block;
+  top: auto;
+  margin-left: auto;
+  margin-right: auto;
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(125, 140, 163, 0.9);
   border-radius: 50%;
-
+  
+ 
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
